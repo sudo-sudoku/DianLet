@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Tributario 3Lite DIAN Leticia</title>
+    <style>
+        :root {
+            --primary: #4472C4;
+            --secondary: #70AD47;
+            --accent: #FFC000;
+            --danger: #C5504B;
+            --light: #F5F5F5;
+            --dark: #333333;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 30px 0;
+            margin-bottom: 40px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            margin: 30px 0 15px;
+            color: var(--primary);
+            border-bottom: 2px solid var(--accent);
+            padding-bottom: 10px;
+        }
+        
+        p {
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            margin: 10px 5px;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: #365fa7;
+        }
+        
+        .btn-secondary {
+            background-color: var(--secondary);
+        }
+        
+        .btn-secondary:hover {
+            background-color: #5d9c3d;
+        }
+        
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 30px -15px;
+        }
+        
+        .feature {
+            flex: 1;
+            min-width: 300px;
+            margin: 15px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .feature h3 {
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+        
+        .cta {
+            text-align: center;
+            margin: 50px 0;
+            padding: 40px;
+            background-color: var(--primary);
+            color: white;
+            border-radius: 5px;
+        }
+        
+        .cta h2 {
+            color: white;
+            border-bottom: none;
+        }
+        
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 30px 0;
+            margin-top: 50px;
+            text-align: center;
+        }
+        
+        .docs-section {
+            margin: 40px 0;
+        }
+        
+        .docs-list {
+            list-style: none;
+        }
+        
+        .docs-list li {
+            margin-bottom: 10px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .docs-list a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .docs-list a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+            .features {
+                flex-direction: column;
+            }
+            
+            .feature {
+                min-width: 100%;
+            }
+        }
+    </style>
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sistema Tributario 3Lite DIAN Leticia</h1>
+            <p>Sistema simplificado para la gestión tributaria implementable en SharePoint en 45 minutos</p>
+            <a href="src/aplicativo_registro_gestion.html" class="btn">Ver Demo del Aplicativo</a>
+            <a href="https://github.com/yourusername/Sistema-3Lite-DIAN-Leticia" class="btn btn-secondary">Ver en GitHub</a>
+        </div>
+    </header>
+    
+    <div class="container">
+        <section>
+            <h2>¿Qué es el Sistema 3Lite?</h2>
+            <p>El Sistema Tributario 3Lite es una versión simplificada y eficiente para la gestión de casos tributarios, seguimiento de metas y registro de gestión. Diseñado específicamente para DIAN Leticia, este sistema se implementa en SharePoint y ofrece todas las funcionalidades esenciales en un paquete fácil de instalar y usar.</p>
+            
+            <div class="features">
+                <div class="feature">
+                    <h3>Implementación Rápida</h3>
+                    <p>Aproximadamente 45 minutos siguiendo la guía paso a paso para tener un sistema completamente funcional.</p>
+                </div>
+                <div class="feature">
+                    <h3>Estructura Simplificada</h3>
+                    <p>Solo 3 listas principales (Casos, Gestión, Metas) para mantener el sistema ligero y eficiente.</p>
+                </div>
+                <div class="feature">
+                    <h3>Dashboard Visual</h3>
+                    <p>Visualización clara de casos, metas y cumplimiento para una toma de decisiones informada.</p>
+                </div>
+            </div>
+            
+            <div class="features">
+                <div class="feature">
+                    <h3>Aplicativo de Registro</h3>
+                    <p>Interfaz web intuitiva para el registro rápido y eficiente de la gestión tributaria.</p>
+                </div>
+                <div class="feature">
+                    <h3>Alertas Automáticas</h3>
+                    <p>Notificaciones de casos próximos a vencer para no perder fechas importantes.</p>
+                </div>
+                <div class="feature">
+                    <h3>Documentación Completa</h3>
+                    <p>Guías detalladas para implementación y uso que facilitan la adopción del sistema.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="docs-section">
+            <h2>Documentación</h2>
+            <p>Este repositorio incluye documentación completa para la implementación y uso del sistema:</p>
+            
+            <ul class="docs-list">
+                <li><a href="docs/guia_implementacion_completa.md">Guía de Implementación Completa</a> - Instrucciones detalladas paso a paso</li>
+                <li><a href="docs/guia_rapida_implementacion.md">Guía Rápida de Implementación</a> - Versión condensada en 10 pasos</li>
+                <li><a href="docs/implementacion_dashboard.md">Implementación del Dashboard</a> - Guía para crear un dashboard efectivo</li>
+                <li><a href="docs/integracion_sharepoint_aplicativo.md">Integración con SharePoint</a> - Conectar el aplicativo con SharePoint</li>
+                <li><a href="docs/guia_capacitacion_usuarios.md">Guía de Capacitación de Usuarios</a> - Plan para entrenar a los usuarios finales</li>
+                <li><a href="docs/lista_verificacion_final.md">Lista de Verificación Final</a> - Checklist para verificar la implementación</li>
+                <li><a href="docs/preguntas_frecuentes.md">Preguntas Frecuentes</a> - Soluciones a problemas comunes</li>
+            </ul>
+        </section>
+        
+        <div class="cta">
+            <h2>¿Listo para implementar?</h2>
+            <p>Comience ahora y tenga su sistema funcionando en menos de una hora.</p>
+            <a href="docs/guia_rapida_implementacion.md" class="btn">Comenzar Implementación</a>
+            <a href="src/aplicativo_registro_gestion.html" class="btn btn-secondary">Ver Demo del Aplicativo</a>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Sistema Tributario 3Lite DIAN Leticia &copy; 2025</p>
+            <p>Desarrollado con ❤️ para DIAN Leticia</p>
+        </div>
+    </footer>
+</body>
+</html>

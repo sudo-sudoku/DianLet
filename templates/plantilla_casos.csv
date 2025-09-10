@@ -1,0 +1,4 @@
+NumeroCaso,Contribuyente,Identificacion,Estado,TipoCaso,FechaVencimiento
+CASO-2025-001,Empresa ABC,900123456-7,Abierto,Fiscalización,2025-10-15
+CASO-2025-002,Juan Pérez,12345678,En Proceso,Devolución,2025-09-25
+CASO-2025-003,Comercial XYZ,800987654-3,Abierto,Recurso,2025-11-08
